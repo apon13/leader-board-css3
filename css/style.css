@@ -1,0 +1,171 @@
+/* font name */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab:wght@300&display=swap');
+/* font awsome */
+
+
+/* <!-- stylesheet --> */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #9F9F9F;
+}
+
+.container-section {
+    background-color: #FFFFFF;
+    width: 870px;
+    margin-top: 21px;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.container {
+    margin-bottom: 30px;
+}
+
+
+.top-name {
+    color: purple;
+    margin: 3px;
+
+}
+
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+
+}
+
+.player {
+    display: flex;
+    align-items: flex-end;
+}
+
+div img {
+    height: 56px;
+    width: 56px;
+    margin-top: 20px;
+
+}
+
+.player-name {
+    margin-left: 16px;
+}
+
+hr {
+    border: 1px solid slategrey;
+
+}
+
+/* new style */
+.thumbails {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+}
+
+.blog {
+    display: flex;
+}
+
+article .images img {
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info {
+    margin-left: 16px;
+}
+
+.blog-title {
+    font-size: 20px;
+}
+
+.blog-info p a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* courses style */
+.courses {
+    display: flex;
+}
+
+.courses-item {
+    display: flex;
+}
+
+.courses-img img {
+    Width: 266px;
+    Height: 141px;
+}
+
+.fa-star.gold {
+    color: #FFC014;
+}
+
+.rate {
+    color: #A2A2A2;
+}
+
+@media only screen and (max-width:688px) {
+    .container-section {
+        width: 100%;
+    }
+
+    .players {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .thumbails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses {
+        flex-direction: column;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .container-section {
+        width: 100%;
+    }
+
+    .players {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .thumbails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .courses {
+        flex-direction: column;
+    }
+
+
+
+}
